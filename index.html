@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>To Do List</title>
+  </head>
+  <body id="by">
+    <div id="header">
+      <div class="container d-flex justify-content-between pt-3 pb-3">
+        <h1 class="header-title">To Do List</h1>
+        <input
+          type="text"
+          name="filter"
+          id="filter"
+          placeholder="Search for..."
+        />
+      </div>
+    </div>
+
+    <div class="container to-do-list">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control text-center"
+          id="add-item-input"
+          placeholder="Add Your Task..."
+        />
+        <button class="input-group-text btn-success" id="add-item-btn">
+          Add Task
+        </button>
+      </div>
+      <ul class="list-group" id="list-items"><li class="list-group-item" id="cl">YOURS TODAY TASK</li></ul></div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
